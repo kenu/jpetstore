@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 	<version>1.0.0-SNAPSHOT</version>
 	<properties>
-		<spring.version>3.0.0.BUILD-SNAPSHOT</spring.version>
+		<spring.version>3.1.1.RELEASE</spring.version>
 		<tiles.version>2.2.0</tiles.version>
 		<hsqldb.version>1.8.0.7</hsqldb.version>
 		<commons-fileupload.version>1.2.1</commons-fileupload.version>
@@ -168,6 +168,11 @@
 			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.6</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>
@@ -180,7 +185,7 @@
 		</repository>	
 		<repository>
 			<id>JBoss repository</id>
-			<url>http://repository.jboss.com/maven2</url>
+			<url>http://repository.jboss.org/nexus/content/groups/public/</url>
 		</repository>
 	
 		<repository>

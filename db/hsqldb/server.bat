@@ -1,1 +1,1 @@
-mvn -f %~dp0pom.xml -Ddb.file=%~dp0jpetstore exec:java 
+mvn -f pom.xml -Ddb.file=jpetstore exec:java 
